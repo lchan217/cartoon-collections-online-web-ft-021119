@@ -28,5 +28,6 @@ def find_the_cheese(array)
     "gouda"
   elsif array.include?("camembert")
   "camembert"
+else 
 end 
 end 
