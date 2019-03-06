@@ -21,5 +21,12 @@ def long_planeteer_calls(array)
   end 
 end 
 def find_the_cheese(array)
-  yummy_cheeses = [""]
+  yummy_cheeses = ["cheddar", "gouda", "camembert"]
+  
+  array.each do |food|
+    yummy_cheeses.each do |cheese|
+      if food == cheese 
+        food 
+      end
+    end 
 end 
