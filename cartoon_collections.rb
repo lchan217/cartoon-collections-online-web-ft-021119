@@ -14,9 +14,9 @@ end
 def long_planeteer_calls(array)
   array.each do|call|
     if call.length > 3 
-      puts true 
+      return true 
     else 
-      puts false 
+      return false 
     end
   end 
 end 
