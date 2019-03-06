@@ -24,6 +24,6 @@ def find_the_cheese(array)
   yummy_cheeses = ["cheddar", "gouda", "camembert"]
   
   array.find do |food|
-    food.include?(yummy_cheeses)
+    food.include?(yummy_cheeses.join)
   end 
 end 
