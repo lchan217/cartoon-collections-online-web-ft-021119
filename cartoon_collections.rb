@@ -23,11 +23,6 @@ end
 def find_the_cheese(array)
   yummy_cheeses = ["cheddar", "gouda", "camembert"]
   
-  array.each do |food|
-    yummy_cheeses.find do |cheese|
-      if food == cheese 
-        cheese 
-      end
-    end 
-  end
+  array.find do |food|
+  end 
 end 
