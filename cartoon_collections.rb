@@ -26,7 +26,7 @@ def find_the_cheese(array)
   array.each do |food|
     yummy_cheeses.each do |cheese|
       if food == cheese 
-        food 
+        cheese 
       end
     end 
   end
