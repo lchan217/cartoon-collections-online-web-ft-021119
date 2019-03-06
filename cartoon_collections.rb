@@ -29,4 +29,5 @@ def find_the_cheese(array)
         food 
       end
     end 
+  end
 end 
